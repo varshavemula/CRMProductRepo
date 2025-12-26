@@ -53,7 +53,7 @@ public class HomePage {
 		return moreLink;
 	}
 	
-	public WebElement ge
+
 
 	public void navigateToCampaignPage()
 	{
