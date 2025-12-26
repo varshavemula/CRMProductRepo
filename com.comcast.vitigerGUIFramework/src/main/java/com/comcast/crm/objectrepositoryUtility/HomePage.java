@@ -30,7 +30,7 @@ public class HomePage {
 	}
 	@FindBy(linkText="More")
     private WebElement moreLink;
-
+	
 	@FindBy(xpath="//img[@src=\"themes/softed/images/user.PNG\"]")
 	private WebElement adminImg;
 	
@@ -52,6 +52,8 @@ public class HomePage {
 	public WebElement getMoreLink() {
 		return moreLink;
 	}
+	
+	public WebElement ge
 
 	public void navigateToCampaignPage()
 	{
