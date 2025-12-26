@@ -23,6 +23,7 @@ public class ProductlinkTest {
 		driver.findElement(By.linkText("Products")).click();
 		driver.findElement(By.xpath("//img[@alt='Create Product...']")).click();
 		driver.findElement(By.name("productname")).sendKeys("sam123");
+		System.out.println("Product added Successfully.....");
 		driver.findElement(By.name("button")).click();
 	}
 }
